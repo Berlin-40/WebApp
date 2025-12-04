@@ -2,6 +2,8 @@
 
 **WebApp** est l'interface utilisateur du projet, développée avec **Spring Boot**. Elle sert de point d'entrée principal pour les utilisateurs finaux qui souhaitent interagir avec les fonctionnalités fournies par nos services.
 
+![image](https://github.com/Berlin-40/WebApp/blob/02b692893edb306fc4b7a22533072a311ca5a368/Capture%20d'%C3%A9cran%202025-12-04%20175307.png)
+
 ## Description
 
 Cette application web constitue la couche frontale de notre stack, permettant aux utilisateurs de visualiser, manipuler et exploiter les données gérées par le backend. Elle communique notamment avec l'API principale [`Api-Employee`](https://github.com/Berlin-40/Api-Employee) pour toutes les opérations métier liées à la gestion des employés.
