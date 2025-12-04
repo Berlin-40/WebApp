@@ -33,7 +33,7 @@ Cette application web constitue la couche frontale de notre stack, permettant au
    ```bash
    npm start
    ```
-4. Accédez à [http://localhost:3000](http://localhost:3000) pour utiliser l'application.
+4. Accédez à [http://localhost:3001](http://localhost:3001) pour utiliser l'application.
 
 > **Note** : Adaptez les commandes selon le framework utilisé (Angular, Vue, etc).
 
