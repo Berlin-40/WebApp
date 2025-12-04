@@ -1,22 +1,25 @@
 # WebApp
 
-**WebApp** est l'interface utilisateur du projet. Elle sert de point d'entrée principal pour les utilisateurs finaux qui souhaitent interagir avec les fonctionnalités fournies par nos services.
-![imge](https://github.com/Berlin-40/WebApp/blob/0059f19c4db301852fa2280bd7eaefef1551688c/Capture%20d'%C3%A9cran%202025-12-04%20175307.png)
+**WebApp** est l'interface utilisateur du projet, développée avec **Spring Boot**. Elle sert de point d'entrée principal pour les utilisateurs finaux qui souhaitent interagir avec les fonctionnalités fournies par nos services.
+
 ## Description
 
-Cette application web constitue la couche frontale de notre stack, permettant aux utilisateurs de visualiser, manipuler et exploiter les données gérées en backend. Elle communique notamment avec notre API principale [`Api-Employee`](https://github.com/Berlin-40/Api-Employee) pour toutes les opérations métier liées à la gestion des employés.
+Cette application web constitue la couche frontale de notre stack, permettant aux utilisateurs de visualiser, manipuler et exploiter les données gérées par le backend. Elle communique notamment avec l'API principale [`Api-Employee`](https://github.com/Berlin-40/Api-Employee) pour toutes les opérations métier liées à la gestion des employés.
 
 ## Fonctionnalités principales
 
 - Interface utilisateur moderne et intuitive
+- Connexion et authentification des utilisateurs
 - Gestion et visualisation des employés
 - Requêtes en temps réel vers les API backend
+- Tableaux de bord, listes, formulaires
 
 ## Technologies utilisées
 
-- Framework front-end moderne (à compléter selon le projet, ex : React, Angular, Vue)
+- **Spring Boot** (Java)
 - Consommation d'API REST via HTTP/HTTPS
-- HTML, CSS, JavaScript/TypeScript
+- HTML, (via modèles Spring)
+- Thymeleaf
 
 ## Installation
 
@@ -24,26 +27,26 @@ Cette application web constitue la couche frontale de notre stack, permettant au
    ```bash
    git clone https://github.com/Berlin-40/WebApp.git
    ```
-2. Installez les dépendances :
+2. Importez le projet dans votre IDE favori (**IntelliJ**, **Eclipse**, etc.).
+3. Vérifiez/installez Java (JDK 17 ou version compatible recommandée) et que le back est lancé.
+4. Lancez l'application :
    ```bash
-   # Exemple pour npm (Node.js)
-   npm install
+   # Depuis la racine du projet
+   ./mvnw spring-boot:run
    ```
-3. Démarrez l'application en développement :
+   ou
    ```bash
-   npm start
+   mvn spring-boot:run
    ```
-4. Accédez à [http://localhost:3001](http://localhost:3001) pour utiliser l'application.
-
-> **Note** : Adaptez les commandes selon le framework utilisé (Angular, Vue, etc).
+5. L'application est disponible à [http://localhost:9001](http://localhost:9001).
 
 ## Configuration
 
-L'application nécessite un accès fonctionnel à l'API backend (`Api-Employee`). Renseignez l'URL de l'API dans vos fichiers de configuration si besoin (exemple : `.env`).
+L'application nécessite un accès fonctionnel à l'API backend [`Api-Employee`](https://github.com/Berlin-40/Api-Employee). Renseignez l'URL de l'API dans `application.properties` ou via les variables d'environnement selon votre configuration.
 
 ## Contribution
 
-Les contributions sont les bienvenues ! Veuillez ouvrir une issue ou soumettre une pull request pour toute suggestion ou amélioration.
+Les contributions sont les bienvenues ! Veuillez ouvrir une issue ou soumettre une Pull Request pour toute suggestion ou amélioration.
 
 ## Liens utiles
 
