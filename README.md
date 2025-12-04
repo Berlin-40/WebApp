@@ -1,7 +1,7 @@
 # WebApp
 
 **WebApp** est l'interface utilisateur du projet. Elle sert de point d'entrée principal pour les utilisateurs finaux qui souhaitent interagir avec les fonctionnalités fournies par nos services.
-
+![imge](https://github.com/Berlin-40/WebApp/blob/0059f19c4db301852fa2280bd7eaefef1551688c/Capture%20d'%C3%A9cran%202025-12-04%20175307.png)
 ## Description
 
 Cette application web constitue la couche frontale de notre stack, permettant aux utilisateurs de visualiser, manipuler et exploiter les données gérées en backend. Elle communique notamment avec notre API principale [`Api-Employee`](https://github.com/Berlin-40/Api-Employee) pour toutes les opérations métier liées à la gestion des employés.
