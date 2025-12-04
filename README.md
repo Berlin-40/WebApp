@@ -48,4 +48,3 @@ Les contributions sont les bienvenues ! Veuillez ouvrir une issue ou soumettre u
 ## Liens utiles
 
 - [Api-Employee (backend)](https://github.com/Berlin-40/Api-Employee)
-Ce projet est sous licence MIT (à adapter selon vos besoins).
